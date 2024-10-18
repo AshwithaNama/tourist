@@ -1,28 +1,28 @@
 module.exports.homelist = function (req, res) {
     res.render('locations-list', {
-        title: 'TOURIST PLACES - Find a place to visit',
+        title: 'colleges  select your college',
         pageHeader: {
-            title: 'tourist places explorer',
-            strapline: 'Find places to visit!'
+            title: 'colleges',
+            strapline: 'Find your dream college'
         },
-        sidebar: "Looking for good place to visit? tourist places helps you find places to visit.",
+        sidebar: "Looking for good college to join?  visit us.",
         locations: [{
-            name: 'TAJ MAHAL',
-            address: 'near river yamuna, Agra, uttarpradesh',
-            rating: 4,
-            facilities: ['hotels', 'Premium wifi','bus facility'],
-            distance: '1200km'
+            name: 'Anurag university',
+            address: 'near hyderabad',
+            rating: 5,
+            facilities: [],
+            distance: '12km'
         }, {
-            name: 'charminar',
+            name: 'NNRG',
             address: ' Hyderabad',
             rating: 3,
-            facilities: ['restaurants', 'streetshopping','books'],
+            facilities: ['hstels','libraries'],
             distance: '15km'
         }, {
-            name: 'Gateway of India',
-            address: 'Apollo Bandar, Colaba, Mumbai, Maharashtra 400001',
+            name: 'sreenidhi ',
+            address: 'hhyderabad',
             rating: 2,
-            facilities: ['Homely food', 'Premium wifi','Photographers'],
+            facilities: ['Homely food', 'Premium wifi'],
             distance: '300km'
         }]
     });
